@@ -1,0 +1,430 @@
+:root{
+--Primary-color:#02a3ed;
+--Secondary-color:#ff4040;
+--Nav-color: #fafafa;
+}
+*{
+margin: 0;
+padding: 0;
+font-family:'Times New Roman', Times, serif;
+}
+.header{
+height: 100px;
+background-color: #fee2b3;
+margin-top: 10px;
+}
+.navbar{
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 0 80px 0 80px;
+height: 100px;
+}
+
+.sidebar{
+display: flex; 
+justify-content: center;
+align-items: center;
+gap: 40px;
+}
+.list-item{
+display: flex;
+list-style: none;
+font-size: 15px;
+gap: 40px;
+ font-weight: 500;
+}
+.Practice{
+list-style: none;
+background-color: #ff4040;
+}
+.list-item li a{
+text-decoration: none;
+color: black;
+letter-spacing: 1px;
+}
+.list-item li a:hover{
+color: var(--Secondary-color);
+}
+.titel{
+font-size:50px;
+font-weight: 700;
+color:black ;
+text-decoration: none;
+list-style: none;
+}
+span{
+color: var(--Secondary-color);
+}
+.contact{
+background-color: var(--Secondary-color);
+padding: 10px 20px;
+border-radius: 40px;
+color: white;
+font-size: 15px;
+font-weight: 400;
+letter-spacing: 1px;
+cursor: pointer;
+}
+.contact:hover{
+background-color: var(--Primary-color);
+}
+.mainbody{
+column-gap: 100px;
+display: flex;
+justify-content: center;
+text-align: center;
+height: 100vh;
+width: 50;
+background-image: url("./hero_bg_footer.jpg");
+background-position: center;
+background-size: cover;  
+}
+.main-contain{
+display:block;
+flex-direction: column;
+justify-content:center;
+align-items: center;
+gap: 20px;
+font-weight: 700;
+font-size: 22px;
+position: relative;
+left: 40pxpx;
+top: 260px;
+}
+.public{
+font-size: 60px;
+color: #fff;
+font-weight: 300;
+line-height: 60px;
+margin-bottom:8px ;
+    
+}
+.veritatis{
+font-size: px;
+font-weight: 300;
+line-height: 27.2px;
+text-align: left;
+}
+
+h2{
+color: white;
+}
+p{
+color: beige;
+}
+
+.login-container{
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+}
+.form-container{
+width: 350px;
+height: 300px;
+background-color: #ecf3ef;
+border-radius: 10px;
+padding: 20px 30px;
+}
+
+/* .lamo{
+margin: 10px 0 30px 0 ;
+font-size: 15px;
+font-weight: 800;
+} */
+.login{
+text-align: center;
+margin: 10px 0 30px 0 ;
+font-size: 20px;
+font-weight: 800;
+color: rgb(8, 8, 8);
+}
+.btn-login-btn{
+border-radius:10px;
+box-sizing: border-box;
+color: white;
+background-color: rgb(233, 131, 124);
+padding: 10px 15px;
+width: 108%;
+   
+}
+#date{
+padding: 10px;
+width: 100%;
+}
+#name{
+width: 100%;
+padding: 10px;
+}
+#email{
+width: 100%;
+padding: 10px;
+}
+.practice{
+text-align: center;
+justify-content: center;
+}
+.butwal{
+color: black;
+}
+.iput{
+color: black;
+font-size: 40px;
+}
+.center{
+justify-content: center;
+display: flex;
+gap: 50px;
+}
+.bankruptcy{
+width: 310px;
+height: 220px;
+background-color: #ecf3ef;
+padding: 20px 30px ;
+}
+.bi{
+font-size: 70px;
+color: black;
+}
+.bank{
+font-size:40px;
+color: black;
+}
+.amet{
+font-size: 20px;
+color:  #999;
+}
+.business{
+width: 310px;
+height: 220px;
+background-color: #ecf3ef;
+padding: 20px 30px ;
+}
+.di{
+font-family: 'Playfair Display';
+font-size: 20px;
+color: #000;
+font-weight: 700
+}
+.busine{
+font-size: 40px;
+color: black;
+}
+.elit{    
+font-size: 20px;
+color: #999;
+}
+.Civil-Rights{
+width: 310px;
+height: 220px;
+background-color: #ecf3ef;
+padding: 20px 30px ;  
+}
+.labor{
+font-size: 70px;
+color: black;
+}
+.Civil{
+font-size: 40px;
+color: black;
+}
+.dolor{
+font-size: 20px;
+color: #999; 
+}
+.image1{
+justify-content: center;
+display: flex;
+gap: 50px;
+color: black;
+}
+.img1{
+width: 300px;
+height: 400px;
+}
+.img2{
+font-size: 40px;
+color: rgb(54, 77, 89);
+font-weight: 300;
+font-family: 'Playfair Display';
+font-size: 1.75rem;
+}
+.consectetur{
+color:rgb(54, 77, 89);
+font-size: 30px;
+line-height: 1.7;
+font-weight: 300;
+font-size: 1rem;
+}
+.book{
+width: 200px;
+height: 50px;
+background-color: rgb(254, 226, 179);
+font-size: 20px;
+}
+.happy{
+justify-content: center;
+align-items: center;
+display: flex;
+font-weight: 700;
+color: #364d59;
+font-family: 'Playfair Display';
+}
+.pic{
+height: 50px;
+width: 50px;
+border-radius: 50%;
+}
+.Lina{
+color: black;
+}
+.photo{
+height: 50px;
+width: 50px;
+border-radius: 50%;
+}
+.mike{
+color: black;
+}
+.phot{
+height: 50px;
+width: 50px;
+border-radius: 50%; 
+}
+.Sheen{
+color: black;
+}
+.solution{
+justify-content: center;
+display: flex;
+gap: 50px;
+color: black; 
+}
+.quisquam{
+max-width: 100%;
+height: auto;
+}
+.fugiat{
+margin-bottom: 1.5rem;
+font-weight: 300;
+color: #364d59;
+font-family: 'Playfair Display';
+font-size: 2rem;
+}
+.moid{
+margin-top: 0;
+margin-bottom: 1rem;
+box-sizing: border-box;
+line-height: 1.7;
+color: #364d59; 
+font-weight: 300;
+font-size: 1rem;
+}
+.download{
+border-color: #efefef;
+display: block;
+width: 100%;
+padding: 10px 20px;
+text-decoration: none;
+text-align: left;
+color: #999;
+background: #fff;
+margin-bottom: 10px;
+font-size: 1rem;
+line-height: 1.5;
+border-radius: 0.25rem;
+}
+.container{
+background-image: url("hero_bg_footer.jpg");
+display: flex;
+justify-content: center;
+align-items: center;
+height: 650px;
+width: auto;
+}
+.row{
+ display: flex;
+justify-content: center;
+align-items: center;
+}
+.list-unstyled {
+padding-left: 0;
+list-style: none;
+}
+ 
+ 
+ .col-lg-8-ml-auto{
+ justify-content: center;
+ display: flex;
+ align-items: center;
+  }
+.row{
+gap: 70px;
+font-size: 20px;
+text-decoration: none;
+list-style: none;
+}
+.footer-heading-mb-4{
+justify-content: center;
+display: flex;
+color: white;
+}
+.behind{
+font-size: auto;
+margin-top: 0;
+margin-bottom: 1rem;
+}
+.list-unstyled a {
+text-decoration: none;
+color:#64696e;
+}
+
+.list-unstyled li{
+padding: 20px;
+}
+.list-unstyled li:hover{
+list-style-type: none;
+margin-bottom: 10px;
+border-radius: 50%;
+padding: 10px 20px;
+text-align: left;
+background-color: rgb(226, 213, 213);
+
+}
+
+.border-top-pt-5{
+border-top-color: brown;
+border-top-style: solid;
+border-top-width: 0px;
+box-sizing: border-box;
+color: rgb(10, 133, 199);
+padding-top: 48px;
+text-align: center;
+}
+.border-top-pt-5{
+color: #000;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color:#0c0c0c;
+}
+._blank {
+color: #efefef;
+font-size: 20px;
+}
+.icon{
+color: #fafafa;
+background-color: #efefef;
+  
+}
+
+.social-link{
+font-size: 30px;
+color: #999;
+gap: 50px;
+padding: 13px;
+}
+.social-link:hover{
+color: #02a3ed;
+}
